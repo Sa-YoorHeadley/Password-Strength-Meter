@@ -5,12 +5,7 @@
 }
 
 :root {
-  --value: 20;
-  --less-than-25: red;
-  --less-than-50: yellow;
-  --less-than-75: lightgreen;
-  --complete: green;
-  --bar-color: red;
+  --bar-color: ;
 }
 
 body {
@@ -23,6 +18,7 @@ body {
 }
 
 .strength-meter {
+  --value: ;
   width: 40%;
   height: 3rem;
   background-color: transparent;
@@ -85,19 +81,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  visibility: hidden;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  visibility: hidden;
 }
 
 .checks .reasons {
-  padding-left: 2rem;
+  padding-left: 2.5rem;
+  font-size: 1rem;
 }
 
 .checks .fa {
   position: absolute;
-  font-size: 1.25rem;
 }
 
 .checks.error {
