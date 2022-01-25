@@ -27,6 +27,17 @@ body {
   margin: 1rem auto;
   position: relative;
   overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .strength-meter::after {
@@ -36,6 +47,7 @@ body {
   width: calc(1% * var(--value, 0));
   height: 100%;
   left: 0;
+  z-index: -1;
 }
 
 .input-container {
@@ -73,27 +85,42 @@ body {
   right: 38%;
 }
 
-.checks {
-  width: 25%;
-  text-align: left;
+.checks-container {
+  width: 80%;
   margin: 0 auto;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.checks {
   position: relative;
+  width: 25%;
+  visibility: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  visibility: hidden;
 }
 
 .checks .reasons {
-  padding-left: 2.5rem;
+  padding-left: 1rem;
   font-size: 1rem;
 }
 
 .checks .fa {
   position: absolute;
+  font-size: .75rem;
 }
 
 .checks.error {
