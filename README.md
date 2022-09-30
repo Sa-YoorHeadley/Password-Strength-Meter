@@ -33,7 +33,13 @@
     <li>SCSS</li>
     <li>HTML</li>
   </ul>
-
+  
+### Concepts Used
+- Absolute positioning
+- Class toggling
+- DOM Manipulation
+- Regular Expressions
+- Event Listeners
 <br />
 
 <!-- Run Locally -->
