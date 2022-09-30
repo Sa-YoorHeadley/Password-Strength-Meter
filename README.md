@@ -3,7 +3,7 @@
   <h1>Password Strength Meter</h1>
   
   <p>
-    Simple JavaScript app to test the strength of your passwords 
+    Simple JavaScript app to test the strength of your passwords. 
   </p>
   
 <!-- Badges -->
@@ -21,7 +21,7 @@
 
 <!-- Video -->
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="https://github.com/Sa-YoorHeadley/Password-Strength-Meter/blob/main/assets/Preview.gif?raw=true" alt="screenshot" />
 </div>
 
 <br />
@@ -48,7 +48,7 @@ git clone https://github.com/Sa-YoorHeadley/Password-Strength-Meter.git
 Go to the project directory
 
 ```bash
-cd my-project
+cd Password-Strength-Meter
 ```
 
 Run using Live Server
