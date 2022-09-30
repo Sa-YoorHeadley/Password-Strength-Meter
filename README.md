@@ -24,6 +24,8 @@
   <img src="https://github.com/Sa-YoorHeadley/Password-Strength-Meter/blob/main/assets/Preview.gif?raw=true" alt="screenshot" />
 </div>
 
+> [Live URL](https://sa-yoorheadley.github.io/Password-Strength-Meter/) 
+
 <br />
 
 <!-- TechStack -->
