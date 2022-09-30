@@ -1,1 +1,58 @@
-# Password-Strength-Meter
+<div align="center">
+
+  <h1>Password Strength Meter</h1>
+  
+  <p>
+    Simple JavaScript app to test the strength of your passwords 
+  </p>
+  
+<!-- Badges -->
+<p>
+  <a href="">
+    <img src="https://img.shields.io/github/last-commit/Sa-YoorHeadley/Password-Strength-Meter" alt="last update" />
+  </a>
+  <a href="https://github.com/Sa-YoorHeadley/Password-Strength-Meter/issues/">
+    <img src="https://img.shields.io/github/issues/Sa-YoorHeadley/Password-Strength-Meter" alt="open issues" />
+  </a>
+</p>
+</div>
+
+<br />
+
+<!-- Video -->
+<div align="center"> 
+  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+</div>
+
+<br />
+
+<!-- TechStack -->
+## Tech Stack
+  <ul>
+    <li>Javascript</li>
+    <li>SCSS</li>
+    <li>HTML</li>
+  </ul>
+
+<br />
+
+<!-- Run Locally -->
+## Run Locally
+
+Clone the project
+
+```bash
+git clone https://github.com/Sa-YoorHeadley/Password-Strength-Meter.git
+```
+
+Go to the project directory
+
+```bash
+cd my-project
+```
+
+Run using Live Server
+```
+Alt + L 
+Alt + O
+```
