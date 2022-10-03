@@ -3,7 +3,7 @@
   <h1>Password Strength Meter</h1>
   
   <p>
-    Simple JavaScript app to test the strength of your passwords. 
+    JavaScript app that uses Regular Expressions to test the strength of your passwords. 
   </p>
   
 <!-- Badges -->
